@@ -1,0 +1,21 @@
+{
+    "name": "exelentshakil/solid",
+    "description": "Dive deep to learn solid",
+    "type": "wordpress-plugin",
+    "license": "GPLV2",
+    "autoload": {
+        "psr-4": {
+            "Exelentshakil\\Solid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shakil Ahmed",
+            "email": "exelentshakil@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    }
+}
